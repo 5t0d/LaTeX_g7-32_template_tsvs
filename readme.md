@@ -55,9 +55,9 @@ sudo apt install texlive-science texlive-latex-extra texlive-extra-utils latexmk
 git clone https://github.com/sibsutisTelecomDep/essay_g7-32_template_tsvs_dep.git
 ```
 2. Открываем папку в VSCode.
-3. Компиляция:
-    1. Редактируем файл `0_main.tex` и сохраняем (компиляция начнется автоматически) или
-    2. Выполняем команду в терминале: `xelatex -halt-on-error  -enable-installer ./0_main.tex` или 
+3. Компиляция (обратите внимание на `или`, компилируем только по одному из пунктов):
+    1. Редактируем файл `0_main.tex` и сохраняем (компиляция начнется автоматически) **или**
+    2. Выполняем команду в терминале: `xelatex -halt-on-error  -enable-installer ./0_main.tex` **или** 
     3. Переходим в расширение TeX, выполняем команду `Build`, получаем в корневой папке `.pdf-файл` 
 
 <img src="https://github.com/user-attachments/assets/4ac12dd7-0da0-4f4b-8ea4-01b1b3b7bac8" width="700" /> 
